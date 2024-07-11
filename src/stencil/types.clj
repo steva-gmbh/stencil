@@ -2,8 +2,8 @@
 
 (set! *warn-on-reflection* true)
 
-(def open-tag "{%")
-(def close-tag "%}")
+(def open-tag "<%")
+(def close-tag "%>")
 
 (defprotocol ControlMarker)
 
